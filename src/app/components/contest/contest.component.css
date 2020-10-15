@@ -1,0 +1,44 @@
+body {
+  text-align : center;
+}
+
+.questions {
+  margin-top: 10%;
+}
+
+mat-radio-button {
+  margin-top : 2%;
+  margin-left: 2%;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 2%;
+}
+
+.errorMessageContainer {
+  color     : #FF0000;
+  margin-top: 2%;
+}
+
+.timer {
+  font-size: 1.2rem;
+  display: block;
+  text-align: right;
+  margin-right: 2%;
+}
+
+.timer span {
+  font-size: 2rem;
+}
+
+.factContainer {
+  margin-top: 5%;
+  font-size: 1.2rem;
+  color     : #c2185b;
+}
+
+.factContainer p {
+  font-size: 1rem;
+  color: #FFF;
+}

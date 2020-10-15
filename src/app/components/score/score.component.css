@@ -1,0 +1,25 @@
+body {
+  text-align      : center;
+  background-color: transparent;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.scoreContainer {
+  margin-top: 2%;
+}
+
+.scoreContainer span {
+  font-size: 2rem;
+  color    : #c2185b;
+}
+
+.userSelectedAnswerContainer {
+  margin-top: 5%;
+}
+
+button {
+  margin: 5% 2%;
+}

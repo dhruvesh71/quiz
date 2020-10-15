@@ -1,0 +1,20 @@
+<body>
+
+  <h1>Summary</h1>
+
+  <div class="scoreContainer">You have total <span>{{data.score/100}}</span> correct answer therefore <br> <span> Your Score is
+      {{data.score}}</span></div>
+
+  <div class="userSelectedAnswerContainer" *ngFor="let selectedAnswer of userSelectedAnswer">
+
+    <h2>{{selectedAnswer.question}}</h2>
+
+    <span>Correct Answer : {{selectedAnswer.answer}}</span>
+    <br>
+    <span>Your Answer : {{selectedAnswer.selectedOption}}</span>
+
+  </div>
+
+
+  <button mat-raised-button color="primary" class="btn" (click)="navigateToHomePage()"> Back To Home Page </button>
+</body>

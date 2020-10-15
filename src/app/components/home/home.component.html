@@ -1,0 +1,44 @@
+<body>
+  <div *ngIf="showSignUpForm">
+    <h1>Welcome to the GK contest</h1>
+
+    <p>Kindly enter your email to signUp</p>
+
+    <form [formGroup]="signUpFormGroup">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Your Email Id</mat-label>
+          <input matInput type="email" placeholder="xyz@gmail.com" aria-label="Email" formControlName="email"
+            maxlength="30" required />
+          <mat-error>{{ errorMessage }}</mat-error>
+        </mat-form-field>
+      </p>
+
+      <p>
+        <button mat-raised-button color="primary" type="button" class="btn" (click)="signUp()">Sign Up</button>
+      </p>
+    </form>
+  </div>
+
+  <div *ngIf="!showSignUpForm">
+
+    <h2>Note</h2>
+    <br>
+
+    <ol>
+      <li>The questions are purely general knowledge based.</li>
+      <li>You will get 15 sec to answer every question.</li>
+      <li>You have to select only one option for each question.</li>
+      <li>After deciding you answer mark the option and click on button Submit Answer.</li>
+      <li>Click on button labeled 'Next Question' to proceed to next question.</li>
+      <li>The test will start immediately after clicking on 'Enter Contest' button.</li>
+    </ol>
+
+    <button mat-raised-button color="primary" class="btn" routerLink="/contest" routerLinkActive="active">
+      Enter Contest
+    </button>
+
+  </div>
+
+
+</body>

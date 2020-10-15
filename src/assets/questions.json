@@ -1,0 +1,60 @@
+{
+  "questions": [
+
+    {
+      "question": "When is the Republic day is celebrated in india ?",
+      "option": [
+        "15 August",
+        "26 January",
+        "2 October",
+        "23 March"
+      ],
+      "answer": "26 January",
+      "fact": "Republic Day has been celebrated every year in India on January 26, since 1950 to honour the date on which the Constitution of India came into effect."
+    },
+    {
+      "question": "What is the capital of Turkey ?",
+      "option": [
+        "Istanbul",
+        "Antalya",
+        "Ankara",
+        "Mardin"
+      ],
+      "answer": "Ankara",
+      "fact": "Ankara, Turkey’s cosmopolitan capital, sits in the country’s central Anatolia region. It’s a center for the performing arts, home to the State Opera and Ballet, the Presidential Symphony Orchestra and several national theater companies."
+    },
+    {
+      "question": "Who is the Minister of External Affairs of India ?",
+      "option": [
+        "Subrahmanyam Jaishankar",
+        "Ravi Shankar Prasad",
+        "Nirmala Sitharaman",
+        "Rajnath Singh"
+      ],
+      "answer": "Subrahmanyam Jaishankar",
+      "fact": "Subrahmanyam Jaishankar is an Indian diplomat and politician who is the current Minister of External Affairs of the Government of India since 31 May 2019. He is a member of the Bharatiya Janata Party and is a Member of Parliament in the Rajya Sabha since 5 July 2019, representing Gujarat."
+    },
+    {
+      "question": "Strait of Malacca lies in which ocean ?",
+      "option": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "Indian Ocean",
+      "fact": "The Strait of Malacca is a narrow stretch of water, 890 km in length, between the Malay Peninsula and the Indonesian island of Sumatra. As the main shipping channel between the Indian Ocean and the Pacific Ocean, it is one of the most important shipping lanes in the world."
+    },
+    {
+      "question": "What is the name of Operational aircraft carrier of India ?",
+      "option": [
+        "INS Vikrant",
+        "INS Viraat",
+        "INS Arihant",
+        "INS Vikramaditya"
+      ],
+      "answer": "INS Vikramaditya",
+      "fact": "INS Vikramaditya is a modified Kiev-class aircraft carrier and the flagship of the Indian Navy, which entered into service in 2013."
+    }
+  ]
+}

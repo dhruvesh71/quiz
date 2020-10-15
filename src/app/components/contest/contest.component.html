@@ -1,0 +1,35 @@
+<body>
+
+  <span class="timer">Remaining Time is <span>{{timer}}</span> sec</span>
+
+  <div class="questions">
+    <h1>Question {{ questionIndex + 1 }} : {{ displayedQuestion }}</h1>
+
+    <mat-radio-group aria-label="Select an option" [(ngModel)]="selectedOption">
+      <mat-radio-button *ngFor="let option of displayedOption" value="{{ option }}">{{ option }}</mat-radio-button>
+    </mat-radio-group>
+
+    <div class="errorMessageContainer">
+      <span *ngIf="displaySelectOneMessage">Select One Option</span>
+      <span *ngIf="displayIncorrectOptionMessage">Oops incorrect option!! <br />
+        The correct answer is {{ displayedAnswer }}</span>
+      <span *ngIf="displayCorrectOptionMessage" style="color: #008000;">Correct Answer</span>
+    </div>
+
+    <div>
+      <button mat-raised-button color="primary" class="btn" (click)="submitAnswer()"
+        [disabled]="disableNextQuestion">Submit Answer</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <button mat-raised-button color="primary" class="btn" (click)="nextQuestion()" [disabled]="!disableNextQuestion">
+        Next Question </button>
+    </div>
+
+    <div class="factContainer" *ngIf="disableNextQuestion">
+      Fact -
+      <p>
+         {{displayedFact}}
+      </p>
+    </div>
+
+  </div>
+</body>
